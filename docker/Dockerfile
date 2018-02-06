@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/ubuntu-build-essential:18.04
+FROM  gcc:latest
 LABEL maintainer=byran@adgico.co.uk
 
 ADD install.sh /
@@ -6,4 +6,4 @@ ADD install.sh /
 RUN /install.sh && \
     rm -f /install.sh
 
-RUN g++ --version | grep -q 7.2
+RUN g++ --version | grep -q 7.3.0
