@@ -5,5 +5,3 @@ ADD install.sh /
 
 RUN /install.sh && \
     rm -f /install.sh
-
-RUN g++ --version | grep -q 7.3.0

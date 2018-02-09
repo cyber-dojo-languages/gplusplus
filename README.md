@@ -1,3 +1,5 @@
-# gplusplus 7.3.0
+# C++ (g++)
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/gplusplus-7.3.0.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/gplusplus.svg?branch=master)
+
+Version=7.3.0
