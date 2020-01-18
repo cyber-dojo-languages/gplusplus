@@ -1,0 +1,6 @@
+FROM gcc:9.2.0
+LABEL maintainer=byran@adgico.co.uk
+LABEL maintainer=jon@jaggersoft.com
+
+COPY install.sh .
+RUN ./install.sh
