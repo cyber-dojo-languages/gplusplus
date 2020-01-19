@@ -2,8 +2,6 @@
 
 DEBIAN_FRONTEND=noninteractive
 
-apt update
-
 # Fix up broken gfortran (which boost depends on) redirects
 # https://www.gitmemory.com/issue/docker-library/gcc/57/499172974
 dpkg-divert --remove --no-rename /usr/bin/gfortran
@@ -13,6 +11,7 @@ apt install --yes libblas-dev
 # Install boost
 apt-get install --yes libboost-dev libboost-all-dev
 apt-get install --yes wget unzip
+
 # Install GSL
 wget https://github.com/Microsoft/GSL/archive/master.zip
 unzip master.zip
