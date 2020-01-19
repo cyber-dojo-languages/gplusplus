@@ -9,7 +9,7 @@ script()
 {
   local -r name=build_test_push_notify.sh
   local -r local_path="${MY_DIR}/../image_builder/${name}"
-  local -r remote_path="https://raw.githubusercontent.com/cyber-dojo-languages/image_builder/master/${name}"
+  local -r remote_path="https://raw.githubusercontent.com/cyber-dojo-tools/image_builder/master/${name}"
   if [ -f "${local_path}" ]; then
     echo "${local_path}"
   else
