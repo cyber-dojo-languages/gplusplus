@@ -1,4 +1,4 @@
-FROM gcc:9.2.0
+FROM gcc:latest
 LABEL maintainer=byran@adgico.co.uk
 LABEL maintainer=jon@jaggersoft.com
 
