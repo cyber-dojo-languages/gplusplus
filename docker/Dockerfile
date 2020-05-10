@@ -15,4 +15,4 @@ LABEL maintainer=byran@adgico.co.uk
 LABEL maintainer=jon@jaggersoft.com
 
 COPY install.sh .
-RUN ./install.sh
+RUN ./install.sh && rm ./install.sh
