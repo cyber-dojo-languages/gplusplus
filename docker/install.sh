@@ -13,7 +13,7 @@ apt-get install --yes libboost-dev libboost-all-dev
 apt-get install --yes wget unzip
 
 # Install GSL
-wget https://github.com/Microsoft/GSL/archive/master.zip
+wget https://github.com/microsoft/GSL/archive/v3.1.0.tar.gz
 unzip master.zip
 cp -r GSL-master/include /usr/local
 rm -rf GSL-master
