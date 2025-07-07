@@ -13,10 +13,10 @@ apt-get install --yes libboost-dev libboost-all-dev
 apt-get install --yes wget unzip
 
 # Install GSL
-wget https://github.com/microsoft/GSL/archive/v3.1.0.zip
-unzip v3.1.0.zip
-cp -r GSL-3.1.0/include /usr/local
-rm -rf GSL-3.1.0
+wget https://github.com/microsoft/GSL/archive/v4.2.0.zip
+unzip v4.2.0.zip
+cp -r GSL-4.2.0/include /usr/local
+rm -rf GSL-4.2.0
 rm -f master.zip
 
 # Install Fake Function Framework
